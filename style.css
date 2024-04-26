@@ -19,7 +19,7 @@ ul {
     padding: 0;
     margin: 0;
     gap: 16px;
-  }
+}
 
 a {
     text-decoration: none;
@@ -33,7 +33,7 @@ a {
 
 .main-text{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #f9faf8;
 }
 
@@ -50,6 +50,86 @@ button{
 .content-image{
     display: flex;
     justify-content: space-between;
+}
+.section-two-content{
+    text-align: center;
+}
+
+.section-two-title{
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 800;
+}
+.section-two-container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info{
+    max-width: 200px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.section-three-content{
+    background-color:#E5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three-text{
+    display:flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.quote-credits{
+    margin-left:auto;
+}
+
+.section-four-content{
+    background-color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.modal{
+    background-color: #3882f6;
+    width: 800px;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.section-four-text-title{
+    font-size:24px;
+    color: #f9faf8;
+}
+
+.section-four-text-maintext{
+    font-size:18px;
+    color: #e5e5e5
+}
+
+.section-four-button{
+    border-color:white;
+    padding: 8px 32px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: #eee;
+    color: darkmagenta;
 }
 
 
