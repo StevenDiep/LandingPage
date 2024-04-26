@@ -1,7 +1,16 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .section-one{
     background-color: #1f2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.section-one-container{
+    width:800px;
+}
 .header-container{
     display:flex;
     padding: 16px;
@@ -52,7 +61,12 @@ button{
     justify-content: space-between;
 }
 .section-two-content{
+    height:500px;
     text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .section-two-title{
@@ -61,6 +75,7 @@ button{
     font-weight: 800;
 }
 .section-two-container{
+    margin-top: 32px;
     display: flex;
     justify-content: center;
     gap: 52px;
@@ -71,14 +86,14 @@ button{
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .section-three-content{
+    height: 400px;
+    color: #727b87;
     background-color:#E5e7eb;
-    font-size: 36px;
-    font-style: italic;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,11 +102,16 @@ img {
 .section-three-text{
     display:flex;
     flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
     width: 800px;
 }
 
 .quote-credits{
     margin-left:auto;
+    font-size:24px;
+    font-weight:900;
+    color:black;
 }
 
 .section-four-content{
@@ -99,11 +119,12 @@ img {
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 350px;
 }
 
 .modal{
     background-color: #3882f6;
+    border-radius: 8px;
     width: 800px;
     display: flex;
     padding: 50px 100px;
@@ -121,15 +142,24 @@ img {
 }
 
 .section-four-button{
-    border-color:white;
-    padding: 8px 32px;
+    border-radius: 8px;
+    border: solid white;
+    padding: 4px 32px;
+    font-weight:600;
+    font-size:18px;
 }
+
 .footer{
     display: flex;
     justify-content: center;
     align-items:center;
-    background: #eee;
-    color: darkmagenta;
+    background: #1f2937;
+}
+
+.footer-text{
+    font-size:18px;
+    color: #e5e7eb;
+    margin:30px;
 }
 
 
